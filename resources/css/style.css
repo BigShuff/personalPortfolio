@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: "GB Garamond";
+    color: #e6e6e6;
+    background-color: #85c2ff;;
+}
+
+.insideBodyPageHolder {
+    position: absolute;
+    height: 85.6481%;
+    width: 90.8854%;
+    margin: auto;
+    right: 4.5573%;
+    top: 7.1759%;
+}
+
+header {
+    display: inline-grid;
+    height: 9%;
+    width: 100%;
+    background-color: #3a3328;
+    opacity: 0.864;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+header .name {
+    font-family: Tangerine;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #85c2ff;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+header .description {
+    font-family: Tangerine;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #85c2ff;
+    display: relative;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+nav {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    min-width: 210px;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #85c2ff;
+}
+
+nav a:hover{
+    color: #e6e6e6;
+}
+
+main {
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+.section {
+    height: 100%;
+    width: 50%;
+    background-color: #172838;
+}
+
+.sectionOne {
+    height: 100%;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.sectionTwo {
+    height: 100%;
+    width: 40%;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr;
+}
+
