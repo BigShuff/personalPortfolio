@@ -217,7 +217,11 @@ main {
 }
 
 .flyer{
-    width: 26vh;
-    height: 26vw;
+    width: 26vw;
+    height: 26vh;
     background-color: antiquewhite;
+    position:absolute;
+    left: 6%;
+    top: 10%;
+    z-index: 2;
 }
