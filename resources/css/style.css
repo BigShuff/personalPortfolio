@@ -10,7 +10,6 @@ body {
     font-family: "GB Garamond";
     color: #e6e6e6;
     background-color: #85c2ff;
-    ;
 }
 
 h2 {
@@ -76,13 +75,21 @@ main {
     height: 82%;
     width: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 3fr;
 }
 
 .sections {
     border: 1px solid white;
     background-color: #172838;
     display: grid;
+}
+
+.techSections {
+    border: 1px solid white;
+    background-color: #172838;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    padding-right: 2vw;
 }
 
 .sectionOne {
@@ -171,6 +178,8 @@ main {
 }
 
 .sectionNine {
+    padding-left: 2vw;
+    padding-top: 2vh;
     grid-row: 7/8;
     grid-column: 1/4;
 }
