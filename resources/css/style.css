@@ -215,3 +215,9 @@ main {
 .sectionNine p a:hover {
     color: #85c2ff;
 }
+
+.flyer{
+    width: 26vh;
+    height: 26vw;
+    background-color: antiquewhite;
+}
