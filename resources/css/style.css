@@ -71,7 +71,6 @@ nav a:hover {
 
 main {
     display: grid;
-    border: 1px solid white;
     height: 82%;
     width: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -79,13 +78,11 @@ main {
 }
 
 .sections {
-    border: 1px solid white;
     background-color: #172838;
     display: grid;
 }
 
 .techSections {
-    border: 1px solid white;
     background-color: #172838;
     padding-left: 2vw;
     padding-top: vh;
@@ -219,9 +216,12 @@ main {
 .flyer{
     width: 26vw;
     height: 26vh;
-    background-color: antiquewhite;
     position:absolute;
-    left: 6%;
-    top: 10%;
+    left: 16.5%;
+    top: 39%;
     z-index: 2;
+}
+
+.flyerImg{
+    width: 500px;
 }
