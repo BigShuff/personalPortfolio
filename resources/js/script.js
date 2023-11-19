@@ -8,8 +8,12 @@ const rollImage3 = document.querySelector('.image3');
 //add an event listener to my div
 rollImage1.addEventListener('mouseenter', function(){
     //oposite is hidden
+    flyer.style.postion = 'absolute';
+    flyer.style.top = '5%';
+    flyer.style.left = '6%';
     flyer.style.visibility = 'visible';
-    flyerImg.setAttribute('src', 'resources/images/southfields.png')
+    flyerImg.setAttribute('src', 'resources/images/southfields.png');
+    
     
 });
 
@@ -22,6 +26,9 @@ rollImage1.addEventListener('mouseleave', function(){
 
 rollImage2.addEventListener('mouseenter', function(){
     //oposite is hidden
+    flyer.style.postion = 'absolute';
+    flyer.style.top = '20%';
+    flyer.style.left = '6%';
     flyer.style.visibility = 'visible';
     flyerImg.setAttribute('src', 'resources/images/ccFotoMatic.png')
     
@@ -36,6 +43,9 @@ rollImage2.addEventListener('mouseleave', function(){
 
 rollImage3.addEventListener('mouseenter', function(){
     //oposite is hidden
+    flyer.style.postion = 'absolute';
+    flyer.style.top = '35%';
+    flyer.style.left = '6%';
     flyer.style.visibility = 'visible';
     flyerImg.setAttribute('src', 'resources/images/ccCheatSheetMini.png')
     
