@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    font-family: "EB Garamond";
+    color: #e6e6e6;
+    background-color: #a8a8a8;
+}
+
+.insideBodyPageHolder {
+    position: absolute;
+    height: 85.6481%;
+    width: 90.8854%;
+    margin: auto;
+    right: 4.5573%;
+    top: 7.1759%;
+}
+
+header {
+    display: inline-grid;
+    height: 12%;
+    width: 100%;
+    background-color: #3a3328;
+    opacity: 0.864;
+    grid-template-rows: 1fr;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    justify-items: flex-start;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+header .title {
+    font-family: Tangerine;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #85c2ff;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+nav {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #85c2ff;
+}
+
+nav a:hover {
+    color: #e6e6e6;
+}
+
+.spacer {
+    background-color: #172838;
+    height: 6%;
+    width: 100%;
+}
+
+main {
+    /* border: 1px solid white; */
+    background-color: #172838;
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
+    justify-content: start;
+    height: 82%;
+    width: 100%;
+   font-weight: 400;
+   font-size: 1.2rem;
+}
+
+.areaOne {
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.areaTwo {
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-rows: 0.6fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.underContruction {
+    margin-left: 4%;
+}

@@ -7,18 +7,19 @@ body {
     height: 100%;
     width: 100%;
     font-size: 62.5%;
-    font-family: "GB Garamond";
+    font-family: "EB Garamond";
+    font-weight: 400;
     color: #e6e6e6;
     background-color: #a8a8a8;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -62,7 +63,7 @@ nav {
 
 nav a {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #85c2ff;
 }
 
@@ -85,8 +86,7 @@ main {
     justify-content: start;
     height: 82%;
     width: 100%;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 .areaOne {
