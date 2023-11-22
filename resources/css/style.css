@@ -34,7 +34,9 @@ h3 {
 
 header {
     display: inline-grid;
-    height: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
     width: 100%;
     background-color: #3a3328;
     opacity: 0.864;
@@ -45,7 +47,7 @@ header {
     border-bottom: 1px solid #e6e6e6;
 }
 
-header .title {
+header .heading {
     font-family: Tangerine;
     font-weight: 700;
     font-size: 3.5rem;
@@ -71,20 +73,20 @@ nav a:hover {
     color: #e6e6e6;
 }
 
-.spacer {
+/* .spacer {
     background-color: #172838;
     height: 6%;
     width: 100%;
-}
+} */
 
 main {
     /* border: 1px solid white; */
     background-color: #172838;
     display: grid;
     grid-template-rows: 6fr 1fr;
-    grid-template-columns: 1.2fr 1fr;
-    justify-content: start;
-    height: 82%;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: start; */
+    height: 88%;
     width: 100%;
     font-size: 1.2rem;
 }
@@ -94,6 +96,7 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+    overflow-y: auto;
 }
 
 .areaTwo {
@@ -189,16 +192,20 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 2%;
 }
 
 /* reach out and touch me */
 .sectionEleven {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     padding-left: 1.5%;
     grid-row: 2/3;
     grid-column: 1/3;
     display: flex;
     align-items: center;
+    min-width: 150px;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 .sectionEleven a {
@@ -215,14 +222,6 @@ main {
     margin-right: 5%;
 }
 
-
-
-
-
-
-
-
-
 .flyer {
     width: 26vw;
     height: 26vh;
@@ -234,8 +233,31 @@ main {
     width: 500px;
 }
 
-@media only screen and (max-width:950px) {
-    header {
-        height: 200px;
+@media only screen and (max-width:1600px) {
+    .sectionThree, .sectionFour, .sectionFive, .sectionSix, .sectionSeven {
+        padding-bottom: 2%;
     }
+    header .heading {
+        font-size: 3rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+     main {
+        display: block;
+        overflow-y: auto;   
+     }
+
+     header .heading {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+    
 }
