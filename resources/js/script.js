@@ -57,3 +57,14 @@ rollImage3.addEventListener('mouseleave', function(){
     flyer.style.visibility = 'hidden';
     //unload image
 });
+
+// Create a condition that targets viewports at least 768px wide
+const mediaQuery = window.matchMedia('(max-width: 1600px)');
+mediaQuery.addEventListener('change', mqHandler );
+function mqHandler(e) {
+  // Check if the media query is true
+  if (e.matches) {
+    // Then log the following message to the console
+    alert('Media Query Matched!')
+  };
+}
