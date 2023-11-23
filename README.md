@@ -10,3 +10,6 @@ This project forms part of the Codecademy course and should:
 8. Make the website responsive.
 9. Use GitHub to host the site i.e enable git pages for the project
 10. Use a readme for the explanation of the project
+
+
+Note that the visibility and size of the project photographs is controlled by a media query that has been enabled in JS
