@@ -12,6 +12,11 @@ body {
     background-color: #a8a8a8;
 }
 
+h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 .insideBodyPageHolder {
     position: absolute;
     height: 85.6481%;
@@ -77,6 +82,7 @@ main {
     width: 100%;
     font-weight: 400;
    font-size: 1.2rem;
+   line-height: 1.5;
 }
 
 .areaOne {
@@ -93,6 +99,34 @@ main {
     grid-template-columns: 1fr;
 }
 
-.underContruction {
-    margin-left: 4%;
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+@media only screen and (max-width:1600px) {
+   header .heading {
+        font-size: 3rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+     main {
+        display: block;
+        overflow-y: auto;   
+     }
+
+     header .heading {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+    
+}
+
