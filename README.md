@@ -13,3 +13,4 @@ This project forms part of the Codecademy course and should:
 
 
 Note that the visibility and size of the project photographs is controlled by a media query that has been enabled in JS
+about.html added 08/12/23
