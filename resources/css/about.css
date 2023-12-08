@@ -8,7 +8,7 @@ body {
     width: 100%;
     font-size: 62.5%;
     font-family: "EB Garamond";
-    color: #e6e6e6;
+    color: #c8c7c7;
     background-color: #a8a8a8;
 }
 
@@ -89,6 +89,7 @@ main {
    font-size: 1.2rem;
    line-height: 1.5;
    text-align: justify;
+  
 }
 
 .text{
@@ -100,6 +101,15 @@ main {
 .textRight{
     margin-right: 10%;
     
+}
+
+.line{
+color: grey; 
+size : 2px; 
+width: 350px;
+margin: auto;
+margin-top: 2%;
+margin-bottom: 2%;
 }
 
 @media only screen and (max-width:1600px) {
